@@ -1,0 +1,25 @@
+#Given number is positive or not
+num=int(input("enter a number: "))
+if(num>0):
+    print("positive")
+elif(num<0):
+    print("negative")
+else:
+    print("zero")
+
+#Given partient has covid or not
+temp=float(input("Enter your body temperature: "))
+blevel=int(input("Enter your breathing level: "))
+clevel=int(input("Enter your coughlevel: "))
+if temp>100 and blevel<65 and clevel>5:
+  print("you are covid positive")
+else:
+  print("Your are safe")
+
+#pancard and Aadharcard equal or not
+aadhar_no=input("enter your aadhar name: ")
+pan_no=input("enter your pan name: ")
+if(aadhar_no==pan_no ):
+    print("your bank account is sustained")
+else:
+    print("your bank account is blocked")
